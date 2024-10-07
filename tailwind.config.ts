@@ -5,6 +5,8 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}"
+    
   ],
   theme: {
     extend: {
@@ -13,7 +15,8 @@ const config: Config = {
         foreground: "var(--foreground)",
         custom_beige:"#FFF3E3",
         default_text:"#333333",
-        text_beige:"#B88E2F"
+        text_beige:"#B88E2F",
+        text_sub:"#666666"
       },
       fontFamily: {
         sans: ["Poppins", "sans-serif"], // Set Poppins as the default sans-serif font
