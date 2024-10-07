@@ -17,7 +17,7 @@ const Navbar = () => {
       height={75}
       alt="Picture of the author"
     />
-            <h1 className='font-logo font-bold text-5xl'>Furniro</h1>
+            <h1 className='font-logo font-bold text-5xl '>Furniro</h1>
             
         </div>
         </div>
