@@ -8,10 +8,11 @@ const Hero = () => {
   <div className="w-full h-screen flex justify-center relative">
 
     {/* Image container */}
-    <div className="w-full h-full flex justify-center overflow-hidden">
+    <div className="w-full h-full flex justify-center ">
       <Image
         src={heroImage}
         width={0}
+    
         height={0} // Adding height=0 for proper rendering
         className="w-full h-full object-cover" // Ensure the image covers the area
         alt="Background Image for hero section"
