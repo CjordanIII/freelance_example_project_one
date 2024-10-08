@@ -14,3 +14,8 @@ export interface products {
   description:string,
   image:string,
 }
+
+export interface Buttionbgtypes {
+  href:string,
+  label:string
+}

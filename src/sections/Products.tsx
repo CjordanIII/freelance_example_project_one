@@ -11,7 +11,7 @@ const Products = () => {
             <ProductItems/>
         </div>
         <div className='flex justify-center'> 
-        <button className='text-text_beige border-2 py-3 px-16 flex justify-center border-text_beige hover:ease-in duration-300  hover:border-collapse hover:bg-text_beige hover:text-white'>
+        <button className='text-text_beige border-2 py-3 px-16 flex justify-center border-text_beige hover:ease-in duration-300  hover:border-collapse hover:bg-text_beige hover:text-white active:opacity-65'>
             {/* TODO add destinatino for link */}
             <Link href={"#"} >
             Show more
