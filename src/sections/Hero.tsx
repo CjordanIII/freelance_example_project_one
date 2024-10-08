@@ -31,6 +31,7 @@ const Hero = () => {
         <p className="text-xs sm:text-sm md:text-base">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
         </p>
+        {/* TODO change anime to match the one at the bottom */}
         <button className="bg-text_beige px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-4 rounded-md my-3 sm:my-4 md:my-5 hover:opacity-75 active:opacity-95">
           {/* TODO add path */}
           <Link style={{ color: "white" }} href={"#"}>
