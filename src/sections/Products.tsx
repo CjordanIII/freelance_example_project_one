@@ -6,7 +6,7 @@ const Products = () => {
         <h1 className='text-center text-4xl font-semibold'>
             Our Products
         </h1>
-        <div>
+        <div className='flex justify-center py-5'>
             <ProductItems/>
         </div>
     </div>

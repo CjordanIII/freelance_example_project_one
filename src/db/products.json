@@ -1,65 +1,64 @@
 {
-    "products": [
-      {
-        "title": "Comfortable Couch",
-        "price": 499.99,
-        "description": "A plush couch perfect for lounging.",
-        "image": "../../public/assets/couch.jpg"
-      },
-      {
-        "title": "Modern Lamp",
-        "price": 89.99,
-        "description": "Stylish lamp to brighten your space.",
-        "image": "../../public/assets/lamp.jpg"
-      },
-      {
-        "title": "Elegant Dining Table",
-        "price": 399.99,
-        "description": "A sleek table for dining or work.",
-        "image": "../../public/assets/table.jpg"
-      },
-      {
-        "title": "Cozy Chair",
-        "price": 149.99,
-        "description": "A comfy chair for any room.",
-        "image": "../../public/assets/char.jpg"
-      },
-      {
-        "title": "Sectional Sofa",
-        "price": 899.99,
-        "description": "Spacious sectional for your living room.",
-        "image": "../../public/assets/couch2.jpg"
-      },
-      {
-        "title": "Luxury Recliner",
-        "price": 299.99,
-        "description": "A perfect chair for relaxing after a long day.",
-        "image": "../../public/assets/char.jpg"
-      },
-      {
-        "title": "Adjustable Lamp",
-        "price": 59.99,
-        "description": "Adjustable light source for reading.",
-        "image": "../../public/assets/lamp.jpg"
-      },
-      {
-        "title": "Classic Coffee Table",
-        "price": 199.99,
-        "description": "A simple yet elegant coffee table.",
-        "image": "../../public/assets/table.jpg"
-      },
-      {
-        "title": "Loveseat Couch",
-        "price": 349.99,
-        "description": "Compact couch for small spaces.",
-        "image": "../../public/assets/couch2.jpg"
-      },
-      {
-        "title": "Armchair with Ottoman",
-        "price": 259.99,
-        "description": "Comfortable armchair with matching ottoman.",
-        "image": "../../public/assets/char.jpg"
-      }
-    ]
-  }
-  
+  "products": [
+    {
+      "title": "Comfortable Couch",
+      "price": 499.99,
+      "description": "A plush couch perfect for lounging.",
+      "image": "/assets/couch.jpg"
+    },
+    {
+      "title": "Modern Lamp",
+      "price": 89.99,
+      "description": "Stylish lamp to brighten your space.",
+      "image": "/assets/lamp.jpg"
+    },
+    {
+      "title": "Elegant Dining Table",
+      "price": 399.99,
+      "description": "A sleek table for dining or work.",
+      "image": "/assets/table.jpg"
+    },
+    {
+      "title": "Cozy Chair",
+      "price": 149.99,
+      "description": "A comfy chair for any room.",
+      "image": "/assets/chair.jpg"
+    },
+    {
+      "title": "Sectional Sofa",
+      "price": 899.99,
+      "description": "Spacious sectional for your living room.",
+      "image": "/assets/couch2.jpg"
+    },
+    {
+      "title": "Luxury Recliner",
+      "price": 299.99,
+      "description": "A perfect chair for relaxing after a long day.",
+      "image": "/assets/chair.jpg"
+    },
+    {
+      "title": "Adjustable Lamp",
+      "price": 59.99,
+      "description": "Adjustable light source for reading.",
+      "image": "/assets/lamp.jpg"
+    },
+    {
+      "title": "Classic Coffee Table",
+      "price": 199.99,
+      "description": "A simple yet elegant coffee table.",
+      "image": "/assets/table.jpg"
+    },
+    {
+      "title": "Loveseat Couch",
+      "price": 349.99,
+      "description": "Compact couch for small spaces.",
+      "image": "/assets/couch2.jpg"
+    },
+    {
+      "title": "Armchair with Ottoman",
+      "price": 259.99,
+      "description": "Comfortable armchair with matching ottoman.",
+      "image": "/assets/chair.jpg"
+    }
+  ]
+}
