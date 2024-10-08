@@ -10,7 +10,7 @@ const Photo:React.FC<photo> = ({photo,label}) => {
       height={0}
       alt="Picture of the funiture"
     />
-    <sub className='text-base font-semibold '>
+    <sub className='text-xl max-sm:text-base font-semibold '>
         {label}
     </sub>
     </div>
