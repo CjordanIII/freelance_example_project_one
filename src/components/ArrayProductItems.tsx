@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { products } from '@/lib/types/types'
 // types for image are string
 const ArrayProductItems:React.FC<products> = ({title,price,description,image}) => {
-  console.log(image)
+
   return (
     <div>
 <div className='w-72 h-72 relative'>

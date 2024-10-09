@@ -19,3 +19,20 @@ export interface Buttionbgtypes {
   href:string,
   label:string
 }
+
+ export interface CarouselItem {
+  image: string;
+  label: string;
+}
+export interface CarouselPhotosProps{
+  current:CarouselItem
+}
+export interface CarouselDataTypes {
+  items: CarouselItem[];
+}
+
+// types
+
+export type CarouselButtonProps = {
+  setIndexCount: React.Dispatch<React.SetStateAction<number>>;
+}; 
