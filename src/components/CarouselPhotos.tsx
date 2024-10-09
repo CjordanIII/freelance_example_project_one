@@ -1,8 +1,27 @@
 import React from 'react'
-
-const CarouselPhotos = () => {
+import Image from 'next/image';
+import {arrOfPhotosTypes} from "../lib/types/types"
+const CarouselPhotos: React.FC<arrOfPhotosTypes>= ({arrOfPhotos,indexCount}) => {
   return (
-    <div>CarouselPhotos</div>
+ <>
+{
+    arrOfPhotos.map((item,i)=>{
+        if(i === indexCount){
+            return null
+        }
+        return(
+            <Image
+            key={i}
+            src={item.image}
+            width={300}
+            height={300}
+            alt="Picture of the author"
+          />
+        )
+    })
+    
+}
+ </>
   )
 }
 

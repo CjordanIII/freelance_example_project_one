@@ -6,8 +6,8 @@ const CarouselFocus: React.FC<CarouselPhotosProps> = ({current}) => {
     <div>
             <Image
       src={current.image}
-      width={75}
-      height={75}
+      width={300}
+      height={300}
       alt="Picture of the author"
     />
     </div>

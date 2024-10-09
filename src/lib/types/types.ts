@@ -30,6 +30,10 @@ export interface CarouselPhotosProps{
 export interface CarouselDataTypes {
   items: CarouselItem[];
 }
+export interface arrOfPhotosTypes {
+  arrOfPhotos:CarouselItem[];
+  indexCount: number
+}
 
 // types
 
