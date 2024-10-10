@@ -26,12 +26,20 @@ const Carousel = () => {
       <div>
         <div className="flex gap-5 w-72 overflow-x-clip">
           <CarouselPhotos arrOfPhotos={items} indexCount={indexCount} />
-         
         </div>
         <CarouselDots />
       </div>
-      <CarouselButton setIndexCount={setIndexCount} />
-      <CarouselLabel />
+
+      <div className="flex flex-col flex-none relative right-11">
+      
+        <div className="flex flex-1"></div>{" "}
+        <CarouselButton setIndexCount={setIndexCount} />
+        <div className="flex flex-1 "></div>
+        <div className="flex flex-1"></div>
+        <div className="flex flex-1"></div>
+        <div className="flex flex-1"></div>
+      </div>
+ 
     </div>
   );
 };
