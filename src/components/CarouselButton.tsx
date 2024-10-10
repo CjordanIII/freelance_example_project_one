@@ -10,7 +10,7 @@ const CarouselButton: React.FC<CarouselButtonProps> = ({setIndexCount}) => {
     // TODO add design later
     
   return (
-    <button onClick={handleClick}>CarouselButton</button>
+    <button  className="reltive" onClick={handleClick}>CarouselButton</button>
   )
 }
 

@@ -21,16 +21,16 @@ const Carousel = () => {
   }, [indexCount]);
 
   return (
-    <div className=" flex">
+    <div className=" flex gap-4 ">
       <CarouselFocus current={current} />
-      <div >
-        <div className="flex">
-          <CarouselPhotos arrOfPhotos={items} indexCount={indexCount}/>
-          <CarouselButton setIndexCount={setIndexCount} />
+      <div>
+        <div className="flex gap-5 w-72 overflow-x-clip">
+          <CarouselPhotos arrOfPhotos={items} indexCount={indexCount} />
+         
         </div>
         <CarouselDots />
       </div>
-
+      <CarouselButton setIndexCount={setIndexCount} />
       <CarouselLabel />
     </div>
   );
