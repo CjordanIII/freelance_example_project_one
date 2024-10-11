@@ -32,12 +32,13 @@ const Carousel = () => {
 
       <div className="flex flex-col flex-none relative right-11">
       
-        <div className="flex flex-1"></div>{" "}
+         <div className="flex flex-1 "/>
+        <div className="flex flex-1 "/>
         <CarouselButton setIndexCount={setIndexCount} />
-        <div className="flex flex-1 "></div>
-        <div className="flex flex-1"></div>
-        <div className="flex flex-1"></div>
-        <div className="flex flex-1"></div>
+        <div className="flex flex-1 "/>
+         <div className="flex flex-1 "/>
+         <div className="flex flex-1 "/>
+         <div className="flex flex-1 "/>
       </div>
  
     </div>

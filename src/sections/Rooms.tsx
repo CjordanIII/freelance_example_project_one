@@ -4,9 +4,9 @@ import Carousel from "@/components/Carousel";
 const Rooms = () => {
   return (
     <div
-      className="bg-light_beige flex justify-between"
+      className="bg-light_beige flex justify-between items-center"
     >
-      <div className="w-96 ">
+      <div className="w-96 ml-40">
         <h1 className="text-default_text text-4xl font-semibold py-1">
           50+ Beautiful rooms inspiration
         </h1>
@@ -18,7 +18,7 @@ const Rooms = () => {
         <Buttionbg href="#" label="Explore More" />
       </div>
       {/* carousel  */}
-      <div>
+      <div className="py-10">
         <Carousel/>
       </div>
     </div>
