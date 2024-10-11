@@ -24,7 +24,7 @@ const Carousel = () => {
     <div className=" flex gap-4 ">
       <CarouselFocus current={current} />
       <div>
-        <div className="flex gap-5 w-72 overflow-x-clip">
+        <div className="flex gap-5 w-80 h-96 overflow-x-clip">
           <CarouselPhotos arrOfPhotos={items} indexCount={indexCount} />
         </div>
         <CarouselDots arrOfPhotos={items} indexCount={indexCount} />
