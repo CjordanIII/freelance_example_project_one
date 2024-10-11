@@ -27,7 +27,7 @@ const Carousel = () => {
         <div className="flex gap-5 w-72 overflow-x-clip">
           <CarouselPhotos arrOfPhotos={items} indexCount={indexCount} />
         </div>
-        <CarouselDots />
+        <CarouselDots arrOfPhotos={items} indexCount={indexCount} />
       </div>
 
       <div className="flex flex-col flex-none relative right-11">
