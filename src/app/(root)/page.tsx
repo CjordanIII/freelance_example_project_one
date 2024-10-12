@@ -2,6 +2,7 @@ import Hero from "@/sections/Hero";
 import Browse from "@/sections/Browse";
 import Products from "@/sections/Products";
 import Rooms from "@/sections/Rooms";
+import Photos from "@/sections/Photos";
 export default function Home() {
   return (
 <>
@@ -9,6 +10,7 @@ export default function Home() {
  <Browse/>
  <Products/>
  <Rooms/>
+ <Photos/>
 </>
 
   );

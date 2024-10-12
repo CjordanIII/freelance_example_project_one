@@ -18,7 +18,8 @@ const config: Config = {
         text_beige:"#B88E2F",
         text_sub:"#666666",
         light_grey:"#F4F5F7",
-        light_beige:"#FCF8F3"
+        light_beige:"#FCF8F3",
+        light_sm_grey:"#616161"
       },
       fontFamily: {
         sans: ["Poppins", "sans-serif"], // Set Poppins as the default sans-serif font

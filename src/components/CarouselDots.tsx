@@ -2,6 +2,7 @@ import React from 'react'
 import { arrOfPhotosTypes } from "../lib/types/types"
 
 const CarouselDots: React.FC<arrOfPhotosTypes> = ({ arrOfPhotos, indexCount }) => {
+  
   return (
     <div>
       {
