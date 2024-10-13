@@ -8,7 +8,7 @@ import Image from 'next/image'
 import logo from "/public/assets/Meubel_House_Logos-05.svg"
 const Navbar = () => {
   return (
-    <nav className='font-poppins flex justify-between max-lg:justify-normal max-lg:gap-2 items-center m-1 xl:gap-0 max-md:justify-evenly my-5'>
+    <nav className='font-poppins flex justify-between max-lg:justify-normal max-lg:gap-2 items-center m-1 xl:gap-0 max-md:justify-evenly my-5 '>
         <div className='flex justify-start '>
         <div className='flex xl:justify-between xl:gap-5'>
         <Image

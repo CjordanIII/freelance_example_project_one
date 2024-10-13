@@ -35,3 +35,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 # freelance_example_project_one
+
+# To try this as a demo 
+
+-  docker run -it -e NGROK_AUTHTOKEN=<token> ngrok/ngrok http 80
