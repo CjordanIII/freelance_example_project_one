@@ -21,7 +21,7 @@ const Hero = () => {
     </div>
   
     {/* Beige div overlapping the image */}
-    <div className="bg-custom_beige py-10 sm:py-16 md:py-20 absolute top-20 sm:top-28 md:top-36 right-5 sm:right-10 md:right-20 z-10 font-sans flex justify-center">
+    <div className="bg-custom_beige py-10 sm:py-16 md:py-20 absolute top-20 sm:top-28 md:top-36 right-5 sm:right-10 md:right-20 z-10 font-sans flex justify-center ">
       <div className="w-4/5 sm:w-3/5 text-center sm:text-left">
         <h5 className="text-default_text font-semibold text-sm sm:text-base md:text-lg">
           New Arrival
