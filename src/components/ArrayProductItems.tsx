@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import { products } from "@/lib/types/types";
+import share from "../../public/assets/Share.svg";
+import compare from "../../public/assets/compare-svgrepo-com 1.svg"
+import heart from "../../public/assets/Heart.svg"
 // types for image are string
 const ArrayProductItems: React.FC<products> = ({
   title,
@@ -10,7 +13,45 @@ const ArrayProductItems: React.FC<products> = ({
 }) => {
   return (
     <div>
-      <div className="w-72 h-72 relative">
+      <div className="w-72 h-72 relative group">
+        <div
+          className="w-72 h-[26rem] absolute z-10 hidden group-hover:flex justify-center items-center"
+          // use rgba for "transparent background"
+          style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
+        >
+          <div>
+            <button className="bg-white text-text_beige py-3 px-6">
+              Add to cart
+            </button>
+            <span>
+              <Image
+                src={share}
+                alt="share" // Use the title as alt text for better accessibility
+                width={100}
+                height={100}
+              />
+              Share
+            </span>
+            <span>
+              <Image
+                src={compare}
+                alt="compare" // Use the title as alt text for better accessibility
+                width={100}
+                height={100}
+              />
+              Compare
+            </span>
+            <span>
+              <Image
+                src={heart}
+                alt="heart" // Use the title as alt text for better accessibility
+                width={100}
+                height={100}
+              />
+              Like
+            </span>
+          </div>
+        </div>
         <Image
           src={image}
           alt={title} // Use the title as alt text for better accessibility

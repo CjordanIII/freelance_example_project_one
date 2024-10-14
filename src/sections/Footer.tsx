@@ -47,13 +47,13 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex md:hidden justify-center py-4">
-        <form className="flex gap-3">
+        <form className="flex gap-3 ">
           <input
             type="email"
             name="email"
             id="email"
             placeholder="Enter Your Email Address"
-            className="border-b-2 border-b-default_text pr-4 focus:outline-none"
+            className="border-b-2 border-b-default_text w-40 focus:outline-none"
           />
 
           <button className="border-b-2 border-b-default_text font-semibold  ">
