@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 import { products } from "@/lib/types/types";
 import share from "../../public/assets/Share.svg";
-import compare from "../../public/assets/compare-svgrepo-com 1.svg"
-import heart from "../../public/assets/Heart.svg"
+import compare from "../../public/assets/compare-svgrepo-com 1.svg";
+import heart from "../../public/assets/Heart.svg";
 // types for image are string
 const ArrayProductItems: React.FC<products> = ({
   title,
@@ -19,37 +19,39 @@ const ArrayProductItems: React.FC<products> = ({
           // use rgba for "transparent background"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
         >
-          <div>
-            <button className="bg-white text-text_beige py-3 px-6">
+          <div className="text-white flex flex-col gap-5">
+            <button className="bg-white text-text_beige py-3 px-6 font-semibold">
               Add to cart
             </button>
-            <span>
-              <Image
-                src={share}
-                alt="share" // Use the title as alt text for better accessibility
-                width={100}
-                height={100}
-              />
-              Share
-            </span>
-            <span>
-              <Image
-                src={compare}
-                alt="compare" // Use the title as alt text for better accessibility
-                width={100}
-                height={100}
-              />
-              Compare
-            </span>
-            <span>
-              <Image
-                src={heart}
-                alt="heart" // Use the title as alt text for better accessibility
-                width={100}
-                height={100}
-              />
-              Like
-            </span>
+            <div className="flex gap-4">
+              <span className="flex 1">
+                <Image
+                  src={share}
+                  alt="share" // Use the title as alt text for better accessibility
+                  width={20}
+                  height={20}
+                />
+                Share
+              </span>
+              <span className="flex gap-1">
+                <Image
+                  src={compare}
+                  alt="compare" // Use the title as alt text for better accessibility
+                  width={20}
+                  height={20}
+                />
+                Compare
+              </span>
+              <span className="flex gap-1">
+                <Image
+                  src={heart}
+                  alt="heart" // Use the title as alt text for better accessibility
+                  width={20}
+                  height={20}
+                />
+                Like
+              </span>
+            </div>
           </div>
         </div>
         <Image
