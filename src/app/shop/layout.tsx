@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import "./globals.css";
 import Navbar from "@/components/NavBar";
 
 export const metadata: Metadata = {
@@ -16,13 +15,16 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Meta tag for responsive design */}
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body>
         <header>
           <Navbar/>
         </header>
-        {children}
+        <main className="font-sans ">
+      
+          {children}
+        </main>
       </body>
     </html>
   );
