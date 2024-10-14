@@ -3,7 +3,7 @@ import Browse from "@/sections/Browse";
 import Products from "@/sections/Products";
 import Rooms from "@/sections/Rooms";
 import Photos from "@/sections/Photos";
-import Footer from "@/sections/Footer";
+
 export default function Home() {
   return (
 <>
@@ -12,7 +12,7 @@ export default function Home() {
  <Products/>
  <Rooms/>
  <Photos/>
- <Footer/>
+
 </>
 
   );
