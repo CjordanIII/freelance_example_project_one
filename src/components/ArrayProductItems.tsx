@@ -19,6 +19,7 @@ const ArrayProductItems: React.FC<products> = ({
           // use rgba for "transparent background"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
         >
+          {/* TODO add links and link destnatino for button */}
           <div className="text-white flex flex-col gap-5">
             <button className="bg-white text-text_beige py-3 px-6 font-semibold">
               Add to cart
