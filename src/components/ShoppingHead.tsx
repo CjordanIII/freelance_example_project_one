@@ -13,8 +13,8 @@ const ShoppingHead = () => {
         layout="cover"
       />
       <div className="z-10 absolute flex flex-col justify-center gap-3">
-        <h1 className="text-5xl font-semibold ">Shop</h1>
-        <div className="flex gap-2">
+        <h1 className="text-5xl font-semibold max-md:text-2xl max-md:text-center ">Shop</h1>
+        <div className="flex gap-2 max-md:text-sm">
           <strong>Home &gt;</strong>
           <p>Shop</p>
         </div>

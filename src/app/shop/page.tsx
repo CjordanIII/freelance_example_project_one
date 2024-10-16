@@ -8,7 +8,7 @@ export default function Home() {
 <header className=" w-full flex justify-center">
 <ShoppingHead/>
 </header>
-<div className="pb-4">
+<div className="pb-4 ">
 <FilterShopt/>
 </div>
 <div className="flex justify-center">

@@ -7,10 +7,10 @@ import Image from "next/image";
 const FilterShopt = () => {
   const svgsize: number = 20;
   return (
-    <div className="bg-background_gold w-full flex  align-middle py-10 justify-around">
-      <div className="flex gap-3">
+    <div className="bg-background_gold max-sm:w-[100vh] flex align-middle py-10 justify-around max-md:flex-col">
+      <div className="flex gap-3 ">
         {/* TODO add functionality for this button it will filter priority low (because demo) */}
-        <button className="flex justify-center gap-3 ">
+        <button className="flex justify-center gap-3 max-md:justify-normal">
           <Image
             src={filtersvg}
             width={svgsize}
@@ -31,11 +31,11 @@ const FilterShopt = () => {
         <button>
           <Image src={Slice_1} width={svgsize} height={svgsize} alt="slices" />
         </button>
-        <span className="border-l-2 border-grey h-auto" />
+        <span className="border-l-2 border-grey h-auto max-md:hidden" />
         {/* TODO add dynamic numbers */}
         <p>Showing 1-16 of 32 result</p>
       </div>
-      <div className="flex gap-5">
+      <div className="flex gap-5 max-md:flex-col">
         <div className="flex gap-2">
           <label htmlFor="show">Show</label>
           <input
