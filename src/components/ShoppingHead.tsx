@@ -17,7 +17,7 @@ const ShoppingHead: React.FC<ShoppingHeadPropTypes> = ({toPage,fromPage,title,pa
       />
       <div className="z-10 absolute flex flex-col justify-center gap-3">
         <h1 className="text-5xl font-semibold max-md:text-2xl max-md:text-center ">{title}</h1>
-        <div className="flex gap-2 max-md:text-sm">
+        <div className="flex gap-2 max-md:text-sm justify-center">
           <strong><Link href={page} >{fromPage}</Link> &gt;</strong>
           <p>{toPage}</p>
         </div>
