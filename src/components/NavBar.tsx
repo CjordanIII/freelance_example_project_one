@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
         </div>
         <div className='flex justify-between gap-10 text-xl max-md:text-sm max-xl:gap-4 max-md:gap-5'>
-        <Link href={'#'} >
+        <Link href={'/'} >
             Home
         </Link>
         <Link href={'/shop'}>

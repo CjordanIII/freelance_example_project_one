@@ -25,7 +25,7 @@ const ArrayProductItems: React.FC<products> = ({
               Add to cart
             </button>
             <div className="flex gap-4">
-              <div className="flex 1">
+              <span className="flex 1">
                 <Image
                   src={share}
                   alt="share" // Use the title as alt text for better accessibility
@@ -33,8 +33,8 @@ const ArrayProductItems: React.FC<products> = ({
                   height={20}
                 />
                 Share
-              </div>
-              <div className="flex gap-1">
+              </span>
+              <span className="flex gap-1">
                 <Image
                   src={compare}
                   alt="compare" // Use the title as alt text for better accessibility
@@ -42,8 +42,8 @@ const ArrayProductItems: React.FC<products> = ({
                   height={20}
                 />
                 Compare
-              </div>
-              <div className="flex gap-1">
+              </span>
+              <span className="flex gap-1">
                 <Image
                   src={heart}
                   alt="heart" // Use the title as alt text for better accessibility
@@ -51,7 +51,7 @@ const ArrayProductItems: React.FC<products> = ({
                   height={20}
                 />
                 Like
-              </div>
+              </span>
             </div>
           </div>
         </div>

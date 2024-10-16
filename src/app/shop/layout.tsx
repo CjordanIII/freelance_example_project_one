@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Navbar from "@/components/NavBar";
+
 import Footer from "@/sections/Footer";
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,16 +17,15 @@ export default function RootLayout({
         {/* Meta tag for responsive design */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body>
-        <header>
-          <Navbar/>
-        </header>
+      <body >
+  
         <main className="font-sans ">
       
           {children}
         </main>
+        <Footer/>
       </body>
-      <Footer/>
+     
     </html>
   );
 }
