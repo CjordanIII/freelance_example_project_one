@@ -8,7 +8,7 @@ import customer_support from "../../public/assets/customer-support.svg"
 const Promises = () => {
 
   return (
-    <div className='flex bg-background_gold py-20 w-full justify-evenly' >
+    <div className='flex bg-background_gold py-20 w-full justify-evenly my-4' >
         <PromiseIconAndLabel title="Hight Quality" refs={trophy1} sub="Crafted from top materials"/>
         <PromiseIconAndLabel title="Warranty Protection" refs={guarantee} sub="Over 2 years"/>
         <PromiseIconAndLabel title="Free Shipping" refs={shipping} sub="Order over $150"/>
