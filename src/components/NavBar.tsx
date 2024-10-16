@@ -7,6 +7,7 @@ import Cart from '@/lib/icons/Cart'
 import Image from 'next/image'
 import logo from "/public/assets/Meubel_House_Logos-05.svg"
 const Navbar = () => {
+
   return (
     <nav className='font-poppins flex justify-between max-lg:justify-normal max-lg:gap-2 items-center m-1 xl:gap-0 max-md:justify-evenly my-5 '>
         <div className='flex justify-start '>
@@ -25,7 +26,7 @@ const Navbar = () => {
         <Link href={'/'} >
             Home
         </Link>
-        <Link href={'/shop'}>
+        <Link href={'/shop'} >
             Shop
         </Link>
         <Link href={'#'}>

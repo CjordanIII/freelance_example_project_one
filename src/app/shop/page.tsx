@@ -1,12 +1,12 @@
 import ShoppingHead from "@/components/ShoppingHead";
 import ProductItems from "@/components/ProductItems";
 import FilterShopt from "@/components/FilterShopt";
-import Promises from "@/sections/Promises";
+
 export default function Home() {
   return (
     <>
       <header className=" w-full flex justify-center">
-        <ShoppingHead />
+        <ShoppingHead toPage="Shop" fromPage="Home" title="Shop" page="/"/>
       </header>
       <div className="pb-4 ">
         <FilterShopt />

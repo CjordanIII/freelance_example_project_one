@@ -39,6 +39,13 @@ export interface PromiseIconAndLabelTypes{
   refs:string,
   sub:string
 }
+
+export interface ShoppingHeadPropTypes {
+  toPage:string,
+  fromPage:string,
+  title:string,
+  page:string
+}
 // types
 
 export type CarouselButtonProps = {

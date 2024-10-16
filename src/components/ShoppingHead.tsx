@@ -1,7 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import photo from "../../public/assets/Rectangle 1.jpg";
-const ShoppingHead = () => {
+import { ShoppingHeadPropTypes } from "@/lib/types/types";
+import Link from "next/link";
+
+const ShoppingHead: React.FC<ShoppingHeadPropTypes> = ({toPage,fromPage,title,page}) => {
   return (
     <div className="flex justify-center items-center w-full">
       {" "}
@@ -13,10 +16,10 @@ const ShoppingHead = () => {
         layout="cover"
       />
       <div className="z-10 absolute flex flex-col justify-center gap-3">
-        <h1 className="text-5xl font-semibold max-md:text-2xl max-md:text-center ">Shop</h1>
+        <h1 className="text-5xl font-semibold max-md:text-2xl max-md:text-center ">{title}</h1>
         <div className="flex gap-2 max-md:text-sm">
-          <strong>Home &gt;</strong>
-          <p>Shop</p>
+          <strong><Link href={page} >{fromPage}</Link> &gt;</strong>
+          <p>{toPage}</p>
         </div>
       </div>
     </div>
