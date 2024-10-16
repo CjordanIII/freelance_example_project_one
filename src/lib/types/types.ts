@@ -34,7 +34,11 @@ export interface arrOfPhotosTypes {
   arrOfPhotos:CarouselItem[];
   indexCount: number
 }
-
+export interface PromiseIconAndLabelTypes{
+  title:string,
+  refs:string,
+  sub:string
+}
 // types
 
 export type CarouselButtonProps = {
