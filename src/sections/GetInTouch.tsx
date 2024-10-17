@@ -8,7 +8,7 @@ import Buttionbg from "@/components/Buttionbg";
 const GetInTouch = () => {
   return (
     <section className="w-full h-full flex justify-center items-center flex-col">
-      <div className="text-center w-3/5 flex flex-col py-10">
+      <div className="text-center w-3/5 max-sm:w-5/6 max-sm:gap-5 flex flex-col py-10">
         <h1 className="text-center font-semibold text-3xl">
           Get In Touch With Us
         </h1>
@@ -18,8 +18,8 @@ const GetInTouch = () => {
           Hesitate!
         </sub>
       </div>
-      <div className="flex justify-evenly w-full ">
-        <div className="flex flex-col justify-evenly">
+      <div className="flex justify-evenly w-full max-sm:flex-col-reverse max-sm:items-center ">
+        <div className="flex flex-col justify-evenly max-sm:w-5/6 max-sm:gap-4 max-sm:py-5">
           <SideContentGetIntouch
             icon={location}
             title="Address"
@@ -37,7 +37,7 @@ const GetInTouch = () => {
           />
         </div>
     {/* TODO get data from form react hook form */}
-        <form className="flex flex-col gap-5 w-1/4">
+        <form className="flex flex-col gap-5 w-1/4 max-sm:w-5/6">
             <>
             <Input label={"Your name"} name={"name"} placeholder={"Enter your Name"} type="default" required={true}/>
             </>
