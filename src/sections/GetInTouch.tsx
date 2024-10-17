@@ -4,6 +4,7 @@ import location from "../../public/assets/location.svg";
 import phone from "../../public/assets/Phone.svg";
 import clock from "../../public/assets/bi_clock-fill.svg";
 import Input from "@/components/Input";
+import Buttionbg from "@/components/Buttionbg";
 const GetInTouch = () => {
   return (
     <section className="w-full h-full flex justify-center items-center flex-col">
@@ -18,7 +19,7 @@ const GetInTouch = () => {
         </sub>
       </div>
       <div className="flex justify-evenly w-full ">
-        <div>
+        <div className="flex flex-col justify-evenly">
           <SideContentGetIntouch
             icon={location}
             title="Address"
@@ -49,6 +50,8 @@ const GetInTouch = () => {
             <>
             <Input label={"Message"} name={"message"} placeholder={"I would like to talk about..."} type="default" required={true} textArea={true}/>
             </>
+            {/* TODO add functionalaity  */}
+            <Buttionbg label="Submit" href="#"/>
         </form>
       </div>
     </section>
