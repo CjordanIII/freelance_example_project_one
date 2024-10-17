@@ -46,6 +46,21 @@ export interface ShoppingHeadPropTypes {
   title:string,
   page:string
 }
+export interface SideContentGetIntouchprops {
+  title: string,
+  des:string,
+  icon:string
+
+}
+export interface InputPropstype {
+  label: string,
+  name:string,
+  placeholder:string,
+  type?:string,
+  required?:boolean,
+  textArea?:boolean | undefined
+
+}
 // types
 
 export type CarouselButtonProps = {
